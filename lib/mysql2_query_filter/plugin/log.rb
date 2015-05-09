@@ -9,7 +9,7 @@ module Mysql2QueryFilter::Plugin
       @out = @options[:out] || $stderr
     end
 
-    def filter(sql)
+    def filter(sql, query_options)
       @out << "#{sql}\n"
     end
   end
