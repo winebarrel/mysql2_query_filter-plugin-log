@@ -1,5 +1,4 @@
 require 'mysql2_query_filter'
-require 'mysql2_query_filter/plugin/log'
 
 module Mysql2QueryFilter::Plugin
   class Log < Filter
