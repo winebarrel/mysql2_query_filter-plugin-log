@@ -4,9 +4,13 @@ module Mysql2QueryFilter::Plugin
   class Log < Filter
     Mysql2QueryFilter.register(:log, self)
 
+    def initialize(options)
+      super
+      @out = @options[:out] || $stderr
+    end
+
     def filter(sql)
-      out = @options[:out] || $stderr
-      out.puts(sql)
+      @out << "#{sql}\n"
     end
   end
 end
