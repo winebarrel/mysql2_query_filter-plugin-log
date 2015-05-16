@@ -2,6 +2,9 @@
 
 Logging plug-in for [Mysql2QueryFilter](https://github.com/winebarrel/mysql2_query_filter).
 
+[![Gem Version](https://badge.fury.io/rb/mysql2_query_filter-plugin-log.svg)](http://badge.fury.io/rb/mysql2_query_filter-plugin-log)
+[![Build Status](https://travis-ci.org/winebarrel/mysql2_query_filter-plugin-log.svg?branch=master)](https://travis-ci.org/winebarrel/mysql2_query_filter-plugin-log)
+
 ## Installation
 
 Add this line to your application's Gemfile:
